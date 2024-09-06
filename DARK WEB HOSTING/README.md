@@ -2,6 +2,7 @@
 sudo apt install tor
 
 # HOST WEBSITE (eg:-python)
+cd [website directory]
 python -m http.server --bind 127.0.0.1 8080 //any desired port
 
 # TOR CONFIGURATION
