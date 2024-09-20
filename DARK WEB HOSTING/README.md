@@ -9,7 +9,7 @@ python -m http.server --bind 127.0.0.1 8080 //any desired port
 cd /etc/tor/
 nano torrc
 
-add lines (torrc file) >>
+add lines (torrc file) >> <br/>
           HiddenServiceDir /var/lib/tor/hidden_service/ <br />
           HiddenServicePort 80 127.0.0.1:8080 //based on your website port
 
