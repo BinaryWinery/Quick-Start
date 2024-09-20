@@ -10,7 +10,7 @@ cd /etc/tor/
 nano torrc
 
 add lines (torrc file) >>
-          HiddenServiceDir /var/lib/tor/hidden_service/
+          HiddenServiceDir /var/lib/tor/hidden_service/ <br />
           HiddenServicePort 80 127.0.0.1:8080 //based on your website port
 
 # START TOR
