@@ -2,12 +2,12 @@
 sudo apt install tor
 
 # HOST WEBSITE (eg:-python)
-cd [website directory]
+cd [website directory] <br/>
 python -m http.server --bind 127.0.0.1 8080 //any desired port
 
 # TOR CONFIGURATION
-cd /etc/tor/
-nano torrc
+cd /etc/tor/ <br/>
+nano torrc <br/>
 
 add lines (torrc file) >> <br/>
           HiddenServiceDir /var/lib/tor/hidden_service/ <br />
